@@ -148,7 +148,7 @@ console.log(superheroesMarvelWeight);
 const superheroesMostHeavy = superheroes
     .map(x => Number(x.weight))
     .filter(n => isNaN(n) === false)
-    //.reduce(superheroes => Math.max(superheroes));
+//.reduce(superheroes => Math.max(superheroes));
 console.log(Math.max(...superheroesMostHeavy));
 
-
+//test for github
